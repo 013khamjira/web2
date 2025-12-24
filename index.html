@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Freelance Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --dark-color: #1e293b;
+            --light-bg: #f8fafc;
+        }
+
+        body {
+            font-family: 'Kanit', 'Poppins', sans-serif;
+            margin: 0;
+            background-color: var(--light-bg);
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: -50px auto 50px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-top: -120px;
+            object-fit: cover;
+        }
+
+        .section-title {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+            margin: 40px 0 20px;
+            color: var(--dark-color);
+        }
+
+        .skills-tag {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .contact-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>สวัสดีครับ ผม [ชื่อ-นามสกุล ของคุณ]</h1>
+    <p>ยินดีต้อนรับสู่พื้นที่รวบรวมผลงานและทักษะของผม</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <center>
+            <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img">
+        </center>
+
+        <h2 class="section-title">เกี่ยวกับผม</h2>
+        <p>ผมเป็น Freelance ในตำแหน่ง **[ระบุตำแหน่งของคุณ เช่น Graphic Designer / Web Developer]** ที่มีประสบการณ์กว่า [จำนวนปี] ปี มุ่งเน้นการส่งมอบงานที่มีคุณภาพและตรงต่อเวลา</p>
+
+        <h2 class="section-title">ทักษะความสามารถ (Skills)</h2>
+        <div>
+            <span class="skills-tag">HTML/CSS</span>
+            <span class="skills-tag">Graphic Design</span>
+            <span class="skills-tag">Video Editing</span>
+            <span class="skills-tag">Data Entry</span>
+            </div>
+
+        <h2 class="section-title">ผลงานที่ผ่านมา</h2>
+        <ul>
+            <li><strong>โปรเจกต์ A:</strong> ออกแบบโลโก้ให้กับบริษัท...</li>
+            <li><strong>โปรเจกต์ B:</strong> พัฒนาเว็บไซต์หน้าเดียวให้ร้านค้า...</li>
+        </ul>
+
+        <h2 class="section-title">ติดต่อจ้างงาน</h2>
+        <p>หากคุณกำลังมองหาผู้ช่วยในโปรเจกต์ถัดไป สามารถติดต่อผมได้ทันทีครับ</p>
+        <p>📧 อีเมล: yourname@email.com</p>
+        <p>📞 โทร: 08x-xxx-xxxx</p>
+        
+        <center>
+            <a href="mailto:yourname@email.com" class="contact-btn">ส่งอีเมลหาผมตอนนี้</a>
+        </center>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 [ชื่อของคุณ]. Built with Love and Hosted on GitHub.
+</footer>
+
+</body>
+</html>
